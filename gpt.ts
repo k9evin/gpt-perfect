@@ -42,7 +42,7 @@ interface StrictOutputConfig {
  * @param config Optional configuration parameters for the strict output generation.
  * @returns The generated output(s) based on the provided prompts and configuration.
  */
-export async function strict_output(
+export async function gptPerfect(
   systemPrompt: string,
   userInputPrompt: string | string[],
   expectedResponseFormat: OutputFormat,
